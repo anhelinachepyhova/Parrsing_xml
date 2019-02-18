@@ -1,0 +1,71 @@
+
+SQL*Loader: Release 11.2.0.1.0 - Production on Mon Feb 18 16:50:55 2019
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   T_SOURCE_TABLE.ctl
+Data File:      .\in\save_res_source.csv
+  Bad File:     .\bad\save_res_source.bad
+  Discard File: .\discard\save_res_source.dis 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 0
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table PARRSING.T_SOURCE_TABLE, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+TAG_0                               FIRST     *   ;       CHARACTER            
+NAME_0                               NEXT     *   ;       CHARACTER            
+CHILD_TYPE_0                         NEXT     *   ;       CHARACTER            
+SUBCATEGORIES_LOADING_0              NEXT     *   ;       CHARACTER            
+OBJECTS_LOADING_0                    NEXT     *   ;       CHARACTER            
+OBJECT_LOADING_0                     NEXT     *   ;       CHARACTER            
+MDL_APPLYING_RESULT_0                NEXT     *   ;       CHARACTER            
+ARTIFICIAL_SRC_FULL_NAME_0           NEXT     *   ;       CHARACTER            
+TAG_1                                NEXT     *   ;       CHARACTER            
+NAME_1                               NEXT     *   ;       CHARACTER            
+CHILD_TYPE_1                         NEXT     *   ;       CHARACTER            
+SUBCATEGORIES_LOADING_1              NEXT     *   ;       CHARACTER            
+OBJECTS_LOADING_1                    NEXT     *   ;       CHARACTER            
+OBJECT_LOADING_1                     NEXT     *   ;       CHARACTER            
+MDL_APPLYING_RESULT_1                NEXT     *   ;       CHARACTER            
+ARTIFICIAL_SRC_FULL_NAME_1           NEXT     *   ;       CHARACTER            
+TAG_2                                NEXT     *   ;       CHARACTER            
+NAME_2                               NEXT     *   ;       CHARACTER            
+CHILD_TYPE_2                         NEXT     *   ;       CHARACTER            
+SUBCATEGORIES_LOADING_2              NEXT     *   ;       CHARACTER            
+OBJECTS_LOADING_2                    NEXT     *   ;       CHARACTER            
+OBJECT_LOADING_2                     NEXT     *   ;       CHARACTER            
+MDL_APPLYING_RESULT_2                NEXT     *   ;       CHARACTER            
+ARTIFICIAL_SRC_FULL_NAME_2           NEXT     *   ;       CHARACTER            
+
+value used for ROWS parameter changed from 64 to 41
+
+Table PARRSING.T_SOURCE_TABLE:
+  67064 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 253872 bytes(41 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:         67064
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Mon Feb 18 16:50:55 2019
+Run ended on Mon Feb 18 16:50:59 2019
+
+Elapsed time was:     00:00:03.71
+CPU time was:         00:00:00.67
